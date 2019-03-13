@@ -3,9 +3,8 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=guvi", $username, $password);
+    $conn = new PDO("mysql:host=$servername;dbname=db_guvi", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully"; 
     }
 catch(PDOException $e)
     {

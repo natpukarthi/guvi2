@@ -31,7 +31,18 @@ include("auth.php");?>
     <div class="row collapse show no-gutters d-flex h-100 position-relative">
 <?php include_once('header-menu.php');?>
         <div class="col p-3">
-            <h3>Welcome..</h3>
+            <h3>Password Change..</h3>
+<form action="">
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Confirm Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
         </div>
     </div>
 </div>
